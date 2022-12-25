@@ -10,8 +10,6 @@ struct ponto
 
 typedef struct ponto Ponto;
 
-int privateLength(Ponto *p, unsigned int count);
-
 Ponto *listaPontos;
 
 void add(float x, float y)
@@ -24,11 +22,6 @@ void add(float x, float y)
     listaPontos = p;
 }
 
-int length(Ponto *p)
-{
-    return privateLength(p, 0);
-}
-
 int privateLength(Ponto *p, unsigned int count)
 {
     if (p != NULL)
@@ -39,6 +32,11 @@ int privateLength(Ponto *p, unsigned int count)
     {
         return count;
     }
+}
+
+int length(Ponto *p)
+{
+    return privateLength(p, 0);
 }
 
 void imprime(Ponto *p)

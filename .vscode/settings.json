@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "atomic": "c",
+        "*.tcc": "c",
+        "compare": "c",
+        "optional": "c",
+        "future": "c",
+        "numeric": "c",
+        "sstream": "c",
+        "cmath": "c",
+        "stdlib.h": "c",
+        "lista.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
