@@ -10,6 +10,8 @@ struct ponto
 
 typedef struct ponto Ponto;
 
+int privateLength(Ponto *p, unsigned int count);
+
 Ponto *listaPontos;
 
 void add(float x, float y)
@@ -22,27 +24,29 @@ void add(float x, float y)
     listaPontos = p;
 }
 
-int length()
+int length(Ponto *p)
 {
-    Ponto *auxLista = listaPontos;
-    int count = 0;
-
-    while (auxLista != NULL)
-    {
-        auxLista = auxLista->prox;
-        count++;
-    }
-    return count;
+    return privateLength(p, 0);
 }
 
-void imprime()
+int privateLength(Ponto *p, unsigned int count)
 {
-    Ponto *auxLista = listaPontos;
-
-    while (auxLista != NULL)
+    if (p != NULL)
     {
-        printf("\nPonto -> (%2f, %2f)", auxLista->x, auxLista->y);
-        auxLista = auxLista->prox;
+        privateLength(p->prox, ++count);
+    }
+    else
+    {
+        return count;
+    }
+}
+
+void imprime(Ponto *p)
+{
+    if (p != NULL)
+    {
+        printf("\nPonto -> (%2f, %2f)", p->x, p->y);
+        imprime(p->prox);
     }
 }
 
@@ -52,9 +56,10 @@ int main()
     add(5, 5);
     add(8, 8);
 
-    imprime();
+    Ponto *auxLista = listaPontos;
+    imprime(auxLista);
 
-    printf("\nNumero total te items -> %d \n", length());
+    printf("\nNumero total te items -> %d \n", length(auxLista));
 
     return 0;
 }
