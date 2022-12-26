@@ -13,6 +13,7 @@ typedef struct ponto Ponto;
 int main()
 {
     // alocaçao de memoria dinamica
+    // ela é alocada em tempo de execução
     Ponto *p = (Ponto *)malloc(sizeof(Ponto));
 
     p->x = 1;
