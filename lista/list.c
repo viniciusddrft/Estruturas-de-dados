@@ -51,7 +51,8 @@ int privateLength(Ponto *p, unsigned int count)
 
 int length()
 {
-    return privateLength(listaPontos, 0);
+    Ponto *auxLista = listaPontos;
+    return privateLength(auxLista, 0);
 }
 
 void addIndex(float x, float y, int index)
@@ -91,7 +92,8 @@ void privateImprime(Ponto *p)
 
 void imprime()
 {
-    privateImprime(listaPontos);
+    Ponto *auxLista = listaPontos;
+    privateImprime(auxLista);
 }
 
 void removeIndex(unsigned int index)

@@ -20,7 +20,10 @@ int main()
     p->y = 49;
     p->z = 20;
 
-    printf("\nPonto = (%2f,%2f,%2f)", p->x, p->y, p->z);
+    printf("\nPonto = (%2f,%2f,%2f)\n", p->x, p->y, p->z);
+
+    // libera memoria alocada
+    free(p);
 
     return 0;
 }
