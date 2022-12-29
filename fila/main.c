@@ -1,7 +1,6 @@
 #include "fila.h"
 
-int main(void)
-{
+int main(void){
     add(5);
     add(2);
     add(7);

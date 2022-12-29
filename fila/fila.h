@@ -1,8 +1,7 @@
 #ifndef FILA_H_INCLUDED
 #define FILA_H_INCLUDED
 
-struct pessoa
-{
+struct pessoa{
     int senha;
     struct pessoa *prox;
 };

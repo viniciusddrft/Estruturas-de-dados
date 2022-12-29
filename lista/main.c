@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "list.h"
 
-int main()
-{
+int main(){
     addFirst(2, 2);
     addFirst(5, 5);
     addFirst(8, 8);

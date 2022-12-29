@@ -1,8 +1,7 @@
 #ifndef LIST_H_INCLUDED
 #define LIST_H_INCLUDED
 
-struct ponto
-{
+struct ponto{
     float x;
     float y;
     struct ponto *prox;

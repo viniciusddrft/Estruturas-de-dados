@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct ponto
-{
+struct ponto{
     float x;
     float y;
     float z;
@@ -10,8 +9,7 @@ struct ponto
 
 typedef struct ponto Ponto;
 
-int main()
-{
+int main(){
     // alocaçao de memoria dinamica
     // ela é alocada em tempo de execução
     Ponto *p = (Ponto *)malloc(sizeof(Ponto));
