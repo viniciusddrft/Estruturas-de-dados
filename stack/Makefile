@@ -1,8 +1,8 @@
 all:
-	@echo "--- START BUILD ---"
+	@echo "--- START BUILD STACK ---"
 	gcc main.c stack.c -o main
-	@echo "--- DONE BUILD ---"
+	@echo "--- DONE BUILD STACK ---"
 clean:
-	@echo "--- START BUILD ---"
+	@echo "--- START BUILD STACK ---"
 	rm main
-	@echo "--- DONE BUILD ---"
+	@echo "--- DONE BUILD STACK ---"

@@ -1,8 +1,8 @@
 all:
-	@echo "--- START BUILD ---"
+	@echo "--- START BUILD LIST ---"
 	gcc main.c list.c -o main
-	@echo "--- DONE BUILD ---"
+	@echo "--- DONE BUILD LIST ---"
 clean:
-	@echo "--- START BUILD ---"
+	@echo "--- START BUILD LIST ---"
 	rm main
-	@echo "--- DONE BUILD ---"
+	@echo "--- DONE BUILD LIST ---"
