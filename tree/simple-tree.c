@@ -17,7 +17,6 @@ Nodo* create(int value){
 	return n;
 }
 
-
 void add(Nodo *n, int value){
 	if ( value< n->value){
 		if (n->left == NULL){
