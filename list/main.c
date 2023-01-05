@@ -7,7 +7,7 @@ int main()
     addFirst(5, 5);
     addFirst(8, 8);
 
-    imprime();
+    show();
     printf("\nNumero total te items -> %d \n", length());
 
     return 0;

@@ -1,19 +1,19 @@
 #ifndef LIST_H_INCLUDED
 #define LIST_H_INCLUDED
 
-struct ponto{
+struct point{
     float x;
     float y;
-    struct ponto *prox;
+    struct point *next;
 };
 
-typedef struct ponto Ponto;
+typedef struct point Point;
 
 void addFirst(float x, float y);
 void addLast(float x, float y);
 int length();
 void addIndex(float x, float y, int index);
-void imprime();
+void show();
 void removeIndex(unsigned int index);
 
 #endif
