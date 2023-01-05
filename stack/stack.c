@@ -2,29 +2,29 @@
 #include <stdlib.h>
 #include "stack.h"
 
-Prato *pilha;
+Dish *stack;
 
-void add(char cor){
-    Prato *p = (Prato *)malloc(sizeof(Prato));
-    p->cor = cor;
-    p->prox = pilha;
-    pilha = p;
+void add(char color){
+    Dish *d = (Dish *)malloc(sizeof(Dish));
+    d->color = color;
+    d->next = stack;
+    stack = d;
 }
 
-void privateImprime(Prato *p){
-    if (p != NULL){
-        printf("\n cor -> %c\n", p->cor);
-        privateImprime(p->prox);
+void privateShow(Dish *d){
+    if (d != NULL){
+        printf("\n color -> %c\n", d->color);
+        privateShow(d->next);
     }
 }
 
-void imprime(Prato *p){
-    Prato *pilhaAux = pilha;
-    privateImprime(pilhaAux);
+void show(){
+    Dish *stackAux = stack;
+    privateShow(stackAux);
 }
 
 void removeStack(){
-    if(pilha!= NULL){
-        pilha = pilha->prox;
+    if(stack!= NULL){
+        stack = stack->next;
     }
 }

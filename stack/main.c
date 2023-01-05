@@ -4,8 +4,8 @@ int main(void){
     add('b');
     add('g');
     add('r');
-    imprime();
+    show();
     removeStack();
-    imprime();
+    show();
     return 0;
 }

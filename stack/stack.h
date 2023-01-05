@@ -1,15 +1,15 @@
 #ifndef STACK_H_INCLUDED
 #define STACK_H_INCLUDED
 
-struct prato{
-    char cor;
-    struct prato *prox;
+struct dish{
+    char color;
+    struct dish *next;
 };
 
-typedef struct prato Prato;
+typedef struct dish Dish;
 
 void add(char cor);
-void imprime();
+void show();
 void removeStack();
 
 #endif
