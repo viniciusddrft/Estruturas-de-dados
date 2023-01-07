@@ -20,4 +20,4 @@ A lista é um caso mais genérico onde cada elemento pode ser adicionado em qual
 
 ## Tree(árvore binária)
 
-A árvore é uma estrutura não linear que funciona de uma forma bem diferente a cada item na árvore pode ter no máximo 2 referencias para outros 2 itens criando essa estrutura de árvore ou grafos
+A árvore é uma estrutura não linear que funciona de uma forma bem diferente a cada item na árvore pode ter no máximo 2 referencias para outros 2 itens criando essa estrutura de árvore.
