@@ -5,6 +5,7 @@ all:
 	make  --directory=queue/
 	make  --directory=stack/
 	make  --directory=tree/
+	make  --directory=linear-structure-search/
 	@echo "--- DONE BUILD ---"
 clean:
 	@echo "--- START BUILD ---"
@@ -13,4 +14,5 @@ clean:
 	make  --directory=queue/ clean
 	make  --directory=stack/ clean
 	make  --directory=tree/ clean
+	make  --directory=linear-structure-search/ clean
 	@echo "--- DONE BUILD ---"
