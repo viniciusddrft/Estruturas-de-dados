@@ -6,6 +6,7 @@ all:
 	make  --directory=stack/
 	make  --directory=tree/
 	make  --directory=linear-structure-search/
+	make  --directory=linear-structure-search/hash-table/
 	@echo "--- DONE BUILD ---"
 clean:
 	@echo "--- START BUILD ---"
@@ -15,4 +16,5 @@ clean:
 	make  --directory=stack/ clean
 	make  --directory=tree/ clean
 	make  --directory=linear-structure-search/ clean
+	make  --directory=linear-structure-search/hash-table/ clean
 	@echo "--- DONE BUILD ---"

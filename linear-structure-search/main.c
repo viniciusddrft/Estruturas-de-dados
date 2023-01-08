@@ -40,7 +40,6 @@ int searchBinary(int num){
                 end = pivot - 1;
             }
         }
-
         if(begin > end){
             printf("Elemento não encontrado\n");
             proceed = 0;
