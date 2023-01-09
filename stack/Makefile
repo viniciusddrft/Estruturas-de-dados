@@ -3,6 +3,6 @@ all:
 	gcc main.c stack.c -o main
 	@echo "--- DONE BUILD STACK ---"
 clean:
-	@echo "--- START BUILD STACK ---"
+	@echo "--- START CLEAN STACK ---"
 	rm main
-	@echo "--- DONE BUILD STACK ---"
+	@echo "--- DONE CLEAN STACK ---"

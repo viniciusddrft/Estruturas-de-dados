@@ -3,6 +3,6 @@ all:
 	gcc main.c -o main
 	@echo "--- DONE BUILD SEARCH ---"
 clean:
-	@echo "--- START BUILD SEARCH ---"
+	@echo "--- START CLEAN SEARCH ---"
 	rm main
-	@echo "--- DONE BUILD SEARCH ---"
+	@echo "--- DONE CLEAN SEARCH ---"

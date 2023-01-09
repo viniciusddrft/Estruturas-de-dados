@@ -9,7 +9,7 @@ all:
 	make  --directory=linear-structure-search/hash-table/
 	@echo "--- DONE BUILD ---"
 clean:
-	@echo "--- START BUILD ---"
+	@echo "--- START CLEAN ---"
 	make  --directory=dynamic_allocation/ clean
 	make  --directory=list/ clean
 	make  --directory=queue/ clean
@@ -17,4 +17,4 @@ clean:
 	make  --directory=tree/ clean
 	make  --directory=linear-structure-search/ clean
 	make  --directory=linear-structure-search/hash-table/ clean
-	@echo "--- DONE BUILD ---"
+	@echo "--- DONE CLEAN ---"

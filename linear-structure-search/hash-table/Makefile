@@ -3,6 +3,6 @@ all:
 	gcc main.c -o main
 	@echo "--- DONE BUILD HASHTABLE ---"
 clean:
-	@echo "--- START BUILD HASHTABLE ---"
+	@echo "--- START CLEAN HASHTABLE ---"
 	rm main
-	@echo "--- DONE BUILD HASHTABLE ---"
+	@echo "--- DONE CLEAN HASHTABLE ---"

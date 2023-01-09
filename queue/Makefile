@@ -3,6 +3,6 @@ all:
 	gcc main.c queue.c -o main
 	@echo "--- DONE BUILD QUEUE ---"
 clean:
-	@echo "--- START BUILD QUEUE ---"
+	@echo "--- START CLEAN QUEUE ---"
 	rm main
-	@echo "--- DONE BUILD QUEUE ---"
+	@echo "--- DONE CLEAN QUEUE ---"

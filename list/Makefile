@@ -3,6 +3,6 @@ all:
 	gcc main.c list.c -o main
 	@echo "--- DONE BUILD LIST ---"
 clean:
-	@echo "--- START BUILD LIST ---"
+	@echo "--- START CLEAN LIST ---"
 	rm main
-	@echo "--- DONE BUILD LIST ---"
+	@echo "--- DONE CLEAN LIST ---"

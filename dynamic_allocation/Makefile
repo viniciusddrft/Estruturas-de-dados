@@ -3,6 +3,6 @@ all:
 	gcc main.c -o main
 	@echo "--- DONE BUILD DYNAMIC ALLOCATION ---"
 clean:
-	@echo "--- START BUILD DYNAMIC ALLOCATION ---"
+	@echo "--- START CLEAN DYNAMIC ALLOCATION ---"
 	rm main
-	@echo "--- DONE BUILD DYNAMIC ALLOCATION ---"
+	@echo "--- DONE CLEAN DYNAMIC ALLOCATION ---"

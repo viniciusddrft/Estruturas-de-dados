@@ -3,6 +3,6 @@ all:
 	gcc main.c tree.c -o main
 	@echo "--- DONE BUILD TREE ---"
 clean:
-	@echo "--- START BUILD TREE ---"
+	@echo "--- START CLEAN TREE ---"
 	rm main
-	@echo "--- DONE BUILD TREE ---"
+	@echo "--- DONE CLEAN TREE ---"
